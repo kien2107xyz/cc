@@ -96,7 +96,7 @@ $banner = $vang."
 for($i = 0; $i < strlen($banner); $i++){echo $banner[$i];usleep(500);}
 $d = date("d-m");
 $_check = file_exists("keyLHTOOL$d.txt");
-echo $hien.$luc."Lấy Key Tại: $vang".$result["https://pastebin.com/r75PKcmR"]." \n";
+echo $hien.$luc."Lấy Key Tại:https://github.com/kien2107xyz/cc $vang".$result["https://pastebin.com/r75PKcmR"]." \n";
 echo $hien."\033[1;31m[\033[1;33mTHÔNG BÁO\033[1;31m]\033[1;37m Đây Là Tool Free. Key Tool Phải Lấy Lại Mỗi Ngày Nhé \n";
 if ($_check !='1'){
 $gh = date("d-m", strtotime("yesterday"));
@@ -111,7 +111,7 @@ for($j = 5;$j> 0;$j--){
   echo "\r";
   echo "                                          \r";
 }
-system("termux-open-url ".$result["https://pastebin.com/r75PKcmR"]."");
+system("termux-open-url https://pastebin.com/r75PKcmR".$result["https://pastebin.com/r75PKcmR"]."");
 
 echo $hien."\033[1;33m[\033[1;31mWARNING\033[1;33m] \033[1;32mNhập Key Đã Lấy: $vang";
     $keyy = trim(fgets(STDIN));
